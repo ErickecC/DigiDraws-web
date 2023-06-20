@@ -1,1 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #01044F, #020436, #020431, #000220);
+}
 
+@font-face {
+  font-family: "FontPag";
+  src: url("DALimited-Font.ttf");
+}
+
+.section {
+  height: 90vh; /* Ajusta el valor según tus necesidades */
+}
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background: linear-gradient(to right, #01044F, #020436, #020431, #000220);
+  color: #FFF;
+}
+
+.title {
+  font-size: 75px;
+  font-family: 'FontPag', sans-serif;
+  text-align: left;
+  margin-left: 250px;
+  letter-spacing: 10px;
+  color: #ffffffa6;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-family: 'FontPag', sans-serif;
+  text-align: left;
+  margin-left: 270px;
+  margin-bottom: 100px;
+  letter-spacing: 2px;
+  color: #ffffff69;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+.transparent-button {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  color: #ffffff7a;
+  width: 280px;
+  position: relative;
+  font-size: 15px;
+  font-family: 'FontPag', sans-serif;
+  margin-right: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+.transparent-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.transparent-button i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #01044F, #020436, #020431, #000220);
+  color: #FFF;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 70px;
+  margin-bottom: 150px;
+  width: 50%;
+}
+
+img {
+  height: 205px;
+  width: 205px;
+  margin-left: 25px;
+  margin-bottom: 120px;
+}
+
+.about-content h2 {
+  font-size: 45px;
+  font-family: 'FontPag', sans-serif;
+  margin-bottom: 10px;
+  color: #ffffffa6;
+}
+
+.about-content p {
+  font-size: 18px;
+  font-family: 'FontPag', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: #ffffffa6;
+}
