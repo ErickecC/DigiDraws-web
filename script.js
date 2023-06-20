@@ -3,7 +3,7 @@ function scrollToSection(sectionId) {
     section.scrollIntoView({ behavior: 'smooth' });
   }
 
-
+var cl = new cloudinary.Cloudinary({cloud_name: "dndioiwsk", secure: true});
 
 // Configura tu proyecto de Firebase
 const firebaseConfig = {
